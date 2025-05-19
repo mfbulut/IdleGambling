@@ -1,0 +1,15 @@
+{
+  "name": "Idle Gambling",
+  "short_name": "IdleGambling",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4DBA87",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

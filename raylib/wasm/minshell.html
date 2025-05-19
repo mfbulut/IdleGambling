@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="EN-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>Idle Gambling</title>
+
+    <meta name="title" content="Idle Gambling">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <meta name="description" content="An idle game about making lots of money">
+    <meta name="keywords" content="idle, game, gambling, fun, raylib, games, videogames">
+    <meta name="viewport" content="width=device-width">
+    <link rel="manifest" href="/manifest.json">
+
+    <style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		html, body {
+			width:  100%;
+			height: 100%;
+		}
+
+		#game-container {
+			width: 100%;
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			user-select: none;
+            background-color: black;
+		}
+
+        canvas.emscripten {
+            max-width: 100%;
+            max-height: 100%;
+            border: 0px none;
+            background-color: black;
+            outline: none;
+        }
+    </style>
+    </head>
+    <body>
+		<div id="game-container">
+            <canvas class="emscripten" id="canvas" oncontextmenu=event.preventDefault() tabindex=-1></canvas>
+		</div>
+        <script>
+          var Module = {
+            print: console.log,
+            canvas: (function() {
+              var canvas = document.getElementById('canvas');
+              return canvas;
+            })()
+          };
+
+          if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js')
+              .then(reg => console.log('Service Worker registered'))
+              .catch(err => console.error('Service Worker registration failed', err));
+          }
+        </script>
+        {{{ SCRIPT }}}
+    </body>
+</html>
