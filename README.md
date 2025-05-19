@@ -10,7 +10,7 @@ Idle Gambling is a simple yet addictive idle game where every bounce of the ball
 
 ##  Downloads:
 
-### [Try web version here](https://mfbulut.github.io/IdleGambling/build/web/)
+### [Try web version here](https://idlegambling.netlify.app/)
 
 [Windows](https://github.com/mfbulut/IdleGambling/releases/download/v1.0.0/windows_x64.zip)
 
