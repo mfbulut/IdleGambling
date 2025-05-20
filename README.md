@@ -1,7 +1,8 @@
 # Idle Gambling 
 
-Idle Gambling is a simple yet addictive idle game where every bounce of the ball earns you money! Invest your earnings into powerful upgrades or risk it all in gambling for a shot at even more rewards.
+Idle Gambling is a casual idle game where every bounce of the ball earns you money! Invest your money into powerful upgrades or risk it all in gambling for even more rewards 
 
+### [Try web version here](https://idlegambling.netlify.app/)
 
 ##  Screenshots:
 
@@ -10,7 +11,7 @@ Idle Gambling is a simple yet addictive idle game where every bounce of the ball
 
 ##  Downloads:
 
-### [Try web version here](https://idlegambling.netlify.app/)
+[itch.io](https://mfbulut.itch.io/idlegambling)
 
 [Windows](https://github.com/mfbulut/IdleGambling/releases/download/v1.0.0/windows_x64.zip)
 
