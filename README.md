@@ -4,7 +4,10 @@ Idle Gambling is a casual idle game where every bounce of the ball earns you mon
 
 ### [Try web version here](https://idlegambling.netlify.app/)
 
-##  Screenshots:
+
+##  Gameplay and Screenshots:
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/1Rh7eciv7W0/0.jpg)](https://www.youtube.com/watch?v=1Rh7eciv7W0)
 
 ![screenshots/screenshot (1).png](https://github.com/mfbulut/IdleGambling/blob/main/screenshots/screenshot%20(1).png)
 ![screenshots/screenshot (1).png](https://github.com/mfbulut/IdleGambling/blob/main/screenshots/screenshot%20(2).png)
